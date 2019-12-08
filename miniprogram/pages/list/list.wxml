@@ -1,0 +1,17 @@
+<view class="list">
+  <view class="item">
+
+       <view class="user">
+       	    <view class="login-item-info">用户名：{{username}}</view>
+       </view>
+
+       <view class="user">
+       	    <view class="login-item-info">密码：{{password}}</view>
+       </view>
+
+       <view class="map-item bottom">
+            <button class="map-btn" bindtap="mapBtnClick">MAP</button>
+       </view>
+
+  </view>
+</view>

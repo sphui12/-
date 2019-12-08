@@ -1,0 +1,14 @@
+/* miniprogram/pages/map/map.wxss */
+.img-mark {
+	width: 100rpx;
+	height: 100rpx;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-90%); 
+}
+.text-tip{
+  padding-left:100px;
+  display: flex;
+  flex-direction: column;
+}

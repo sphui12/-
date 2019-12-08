@@ -1,0 +1,15 @@
+<!--miniprogram/pages/rank/rank.wxml-->
+<view  class='rank_list'>
+    <view class='rank_title'>排名  用户名  豆子数量</view>
+    <text class='rank_title'  space="ensp">  1    {{user0}}    {{numbean0}}\n</text>
+    <text class='rank_title'  space="ensp">  2    {{user1}}    {{numbean1}}\n</text>
+    <text class='rank_title'  space="ensp">  3    {{user2}}    {{numbean2}}\n</text>
+    <text class='rank_title'  space="ensp">  4    {{user3}}    {{numbean3}}\n</text>
+    <text class='rank_title'  space="ensp">  5    {{user4}}    {{numbean4}}\n</text>
+    <text class='rank_title'  space="ensp">  6    {{user5}}    {{numbean5}}\n</text>
+    <text class='rank_title'  space="ensp">  7    {{user6}}    {{numbean6}}\n</text>
+    <text class='rank_title'  space="ensp">  8    {{user7}}    {{numbean7}}\n</text>
+    <text class='rank_title'  space="ensp">  9    {{user8}}    {{numbean8}}\n</text>
+    <text class='rank_title'  space="ensp">  10   {{user9}}    {{numbean9}}\n</text>   
+    <button bindtap="backmap" class="page-body-button" type="primary">返回</button>
+</view>

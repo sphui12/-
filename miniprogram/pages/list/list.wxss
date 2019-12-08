@@ -1,0 +1,38 @@
+/* miniprogram/pages/list/list.wxss */
+
+.login-item{
+    width: 90%;
+    margin-top: 30rpx;
+    border-bottom: 1px solid #eee;
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 20rpx;
+}
+
+.map-btn{
+    width: 80%;
+    color: rgb(46, 199, 226);
+    background-color: rgb(23, 84, 218);
+    border-radius: 0;
+    font-size: 14px;
+}
+
+.item{
+    flex-grow:1;
+    height: 30%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 96%;
+    padding: 0 2%;
+}
+
+.login-item-info{
+    font-size: 18px;
+    color: #888;
+     padding-bottom: 20rpx;
+}
