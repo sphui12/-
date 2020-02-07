@@ -41,7 +41,7 @@ Page({
     var that=this
     const db = wx.cloud.database()
     var rank_list=db.collection('user')
-      .orderBy('numbean', 'desc').limit(10)
+      //.orderBy('numbean', 'desc').limit(10)
       .get({
         success:function(res){
           console.log(res.data)
@@ -66,7 +66,7 @@ Page({
             numbean8: res.data[8].numbean,
             user9: res.data[9].username,
             numbean9: res.data[9].numbean,
-             });
+          });
         }
       });
   

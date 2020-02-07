@@ -14,7 +14,7 @@ Page({
     //按钮是否可用：
     disable:false,
     //游戏时间限制：
-    timelimit:3,
+    timelimit:6,
     minute:10,
     second:'00',
     //当前经纬度：
@@ -359,7 +359,7 @@ Page({
 
     return {
       title: '地图测试',//分享内容
-      path: 'pages/map/map',//分享地址
+      path: 'pages/login/login',//分享地址
       imageUrl: 'share.jpg',//分享图片
       success: function (res) {
         if (res.errMsg == 'shareAppMessage:ok') {//判断分享是否成功
